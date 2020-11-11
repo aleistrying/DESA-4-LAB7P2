@@ -1,0 +1,54 @@
+*,
+html {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgb(240, 244, 251);
+  margin: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+nav a:active {
+  color: black;
+}
+nav a {
+  color: rgb(22, 29, 51);
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.bg-blue {
+  background-color: rgb(240, 244, 251);
+}
+.inline {
+  display: inline;
+  padding: 0;
+}
+.navbar {
+  display: block;
+  width: 100%;
+}
+.nav-item {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+.get-started {
+  border: 0.1rem solid #aaa;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  color: rgb(46, 152, 250);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.one-ten {
+  width: 9.99%;
+  display: inline-block;
+}
